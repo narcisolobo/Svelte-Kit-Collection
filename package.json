@@ -40,6 +40,7 @@
 	"type": "module",
 	"dependencies": {
 		"emoji-type": "^1.0.4",
+		"iconify-icon": "^1.0.7",
 		"svelte-icons": "^2.1.0"
 	}
 }

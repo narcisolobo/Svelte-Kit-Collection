@@ -1,17 +1,13 @@
 <script lang="ts">
-	import '@skeletonlabs/skeleton/themes/theme-modern.css';
-	// import '@skeletonlabs/skeleton/themes/theme-gold-nouveau.css';
-	// import '@skeletonlabs/skeleton/themes/theme-rocket.css';
-	// import '@skeletonlabs/skeleton/themes/theme-seafoam.css';
-	// import '@skeletonlabs/skeleton/themes/theme-crimson.css';
-	// import '@skeletonlabs/skeleton/themes/theme-sahara.css';
-	// import '@skeletonlabs/skeleton/themes/theme-vintage.css';
+	import '@skeletonlabs/skeleton/themes/theme-vintage.css';
 	import '@skeletonlabs/skeleton/styles/skeleton.css';
 	import '../app.postcss';
 	import { AppShell, Drawer } from '@skeletonlabs/skeleton';
 	import Header from '$components/layout/header.svelte';
 	import { linkItems } from '$lib/data/link-items';
 	import { drawerStore } from '@skeletonlabs/skeleton';
+	import 'iconify-icon';
+	import { Modal } from '@skeletonlabs/skeleton';
 
 	function handleCloseDrawer() {
 		drawerStore.close();
@@ -21,6 +17,8 @@
 <svelte:head>
 	<title>SvelteKit Assignments</title>
 </svelte:head>
+
+<Modal />
 
 <AppShell slotPageFooter="bg-slate-800 px-6 py-5">
 	<svelte:fragment slot="header">
