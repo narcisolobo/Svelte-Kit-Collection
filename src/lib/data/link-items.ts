@@ -41,4 +41,9 @@ export const linkItems: ILinkItem[] = [
 		href: '/lifting-state/todo-list',
 		label: 'Todo List',
 	},
+	{
+		icon: '🧲',
+		href: '/lifting-state/navbar-context',
+		label: 'Navbar Context',
+	},
 ];
