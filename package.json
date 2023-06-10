@@ -1,0 +1,45 @@
+{
+	"name": "assignments",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@floating-ui/dom": "^1.2.9",
+		"@skeletonlabs/skeleton": "^1.7.1",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"@tailwindcss/forms": "^0.5.3",
+		"@tailwindcss/typography": "^0.5.9",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.26.0",
+		"postcss": "^8.4.24",
+		"prettier": "^2.8.8",
+		"prettier-plugin-svelte": "^2.10.1",
+		"prettier-plugin-tailwindcss": "^0.3.0",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"sveltekit-superforms": "1.0.0-rc.3",
+		"tailwindcss": "^3.3.2",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^4.3.0",
+		"zod": "^3.21.4"
+	},
+	"type": "module",
+	"dependencies": {
+		"emoji-type": "^1.0.4",
+		"svelte-icons": "^2.1.0"
+	}
+}
