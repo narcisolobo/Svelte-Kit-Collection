@@ -25,8 +25,8 @@
 	<title>{$title} Box Generator</title>
 </svelte:head>
 
-<div class="px-4 sm:container">
-	<h1 class="mb-6 text-2xl font-semibold">Box Generator Total: {total}</h1>
+<section class="space-y-4 px-4 sm:container">
+	<h2 class="h2">Box Generator Total: {total}</h2>
 	<SuperDebug data={$boxForm} display={false} />
 	<div class="flex flex-col gap-4 md:grid md:grid-cols-2 md:items-start">
 		<div class="card mt-4 p-4">
@@ -67,4 +67,4 @@
 			<BoxList />
 		{/if}
 	</div>
-</div>
+</section>

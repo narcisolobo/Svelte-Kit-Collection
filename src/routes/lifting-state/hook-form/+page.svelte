@@ -11,8 +11,8 @@
 	<title>{$title} Hook Form</title>
 </svelte:head>
 
-<div class="px-4 sm:container">
-	<h1 class="mb-6 text-center text-2xl font-semibold">Hook Form</h1>
+<section class="space-y-4 px-4 sm:container">
+	<h2 class="h2">Hook Form</h2>
 	<div class="card mx-4 p-4 sm:mx-auto sm:w-5/6 md:w-3/4 lg:w-1/2">
 		<form action="">
 			<div class="mb-4">
@@ -56,4 +56,4 @@
 			<p class="col-start-2">{confirmPassword}</p>
 		</div>
 	</div>
-</div>
+</section>

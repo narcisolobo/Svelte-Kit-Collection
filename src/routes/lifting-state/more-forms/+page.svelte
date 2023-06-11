@@ -19,9 +19,9 @@
 	<title>{$title} More Forms</title>
 </svelte:head>
 
-<div class="px-4 sm:container">
-	<h1 class="mb-6 text-center text-2xl font-semibold">More Forms</h1>
-	<div class="card mx-4 p-4 sm:mx-auto sm:w-5/6 md:w-3/4 lg:w-1/2">
+<div class="space-y-4 px-4 sm:container">
+	<h2 class="h2">More Forms</h2>
+	<div class="card mx-4 p-4 sm:w-5/6 md:w-3/4 lg:w-1/2">
 		<form method="POST" use:enhance>
 			<div class="mb-4">
 				<label for="firstName" class="label mb-1 text-sm">First Name:</label>
@@ -85,6 +85,6 @@
 		</form>
 	</div>
 	<div class="mt-4">
-		<SuperDebug data={$form} />
+		<SuperDebug data={$form} display={false} />
 	</div>
 </div>

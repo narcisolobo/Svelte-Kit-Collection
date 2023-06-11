@@ -46,4 +46,9 @@ export const linkItems: ILinkItem[] = [
 		href: '/lifting-state/navbar-context',
 		label: 'Navbar Context',
 	},
+	{
+		icon: '🐹',
+		href: '/apis/pokemon-api',
+		label: 'Pokémon API',
+	},
 ];

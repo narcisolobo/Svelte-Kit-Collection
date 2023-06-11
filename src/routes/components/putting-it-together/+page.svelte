@@ -8,9 +8,9 @@
 	<title>{$title} Putting it Together</title>
 </svelte:head>
 
-<div class="px-4 sm:container">
-	<h1 class="mb-6 text-2xl font-semibold">Putting it Together</h1>
+<section class="space-y-4 px-4 sm:container">
+	<h2 class="h2">Putting it Together</h2>
 	{#each people as person}
 		<PersonCard {person} />
 	{/each}
-</div>
+</section>

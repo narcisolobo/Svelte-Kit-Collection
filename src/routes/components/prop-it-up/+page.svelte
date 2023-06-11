@@ -7,9 +7,10 @@
 <svelte:head>
 	<title>{$title} Prop it Up</title>
 </svelte:head>
-<div class="px-4 sm:container">
-	<h1 class="mb-6 text-2xl font-semibold">Prop It Up</h1>
+
+<section class="space-y-4 px-4 sm:container">
+	<h2 class="h2">Prop It Up</h2>
 	{#each people as person}
 		<PersonCard {person} />
 	{/each}
-</div>
+</section>

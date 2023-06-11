@@ -10,8 +10,8 @@
 	<title>{$title} SK Blocks</title>
 </svelte:head>
 
-<div class="px-4 sm:container">
-	<h1 class="mb-6 text-center text-2xl font-semibold">SvelteKit Blocks</h1>
+<section class="space-y-4 px-4 sm:container">
+	<h2 class="h2">SvelteKit Blocks</h2>
 	<Container>
 		<Header />
 		<div class="flex items-start justify-between gap-5">
@@ -19,4 +19,4 @@
 			<Main />
 		</div>
 	</Container>
-</div>
+</section>

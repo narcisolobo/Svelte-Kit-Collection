@@ -8,7 +8,8 @@
 	<title>{$title} Tabs</title>
 </svelte:head>
 
-<div class="mx-auto w-[90%] sm:w-[70%] md:w-[50%]">
+<section class="mx-auto w-[90%] space-y-4 sm:w-[70%] md:w-[50%]">
+	<h2 class="h2">Tabs</h2>
 	<TabGroup regionPanel="bg-slate-100 bg-opacity-10 p-4 rounded">
 		<Tab bind:group={tabSet} name="tab1" value={0}>Svelte's Reactive Approach</Tab>
 		<Tab bind:group={tabSet} name="tab2" value={1}>Svelte's Small Bundle Size</Tab>
@@ -30,4 +31,4 @@
 			{/if}
 		</svelte:fragment>
 	</TabGroup>
-</div>
+</section>

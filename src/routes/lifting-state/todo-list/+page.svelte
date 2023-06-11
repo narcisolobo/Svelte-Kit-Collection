@@ -11,11 +11,8 @@
 	<title>{$title} Todo List</title>
 </svelte:head>
 
-<div class="px-4 sm:container">
-	<h1 class="mb-6 text-2xl font-semibold">Todo List</h1>
-</div>
-
-<div class="px-4 sm:container">
+<section class="space-y-4 px-4 sm:container">
+	<h2 class="h2">Todo List</h2>
 	<TodoForm data={data.todoForm} />
 	<TodoList />
-</div>
+</section>
