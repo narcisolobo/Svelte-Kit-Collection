@@ -1,6 +1,6 @@
 import { fail } from '@sveltejs/kit';
 import { superValidate } from 'sveltekit-superforms/server';
-import { todoSchema } from '$lib/utils/todo-schema';
+import { todoSchema } from '$lib/schemas/todo-schema';
 
 export const load = async () => {
 	const todoForm = await superValidate(todoSchema);

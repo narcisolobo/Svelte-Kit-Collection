@@ -51,4 +51,9 @@ export const linkItems: ILinkItem[] = [
 		href: '/apis/pokemon-api',
 		label: 'Pokémon API',
 	},
+	{
+		icon: '🐸',
+		href: '/apis/luke-apiwalker/people/1',
+		label: 'Luke APIWalker',
+	},
 ];

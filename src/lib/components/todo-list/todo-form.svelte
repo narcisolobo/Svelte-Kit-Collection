@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { SuperValidated } from 'sveltekit-superforms';
-	import type { TodoSchema } from '$lib/utils/todo-schema';
+	import type { TodoSchema } from '$lib/schemas/todo-schema';
 	import { superForm } from 'sveltekit-superforms/client';
 	import type { ITodo } from '$lib/types/itodo-type';
 	import { todos } from '$lib/stores/todo-store';

@@ -1,6 +1,6 @@
 import { fail } from '@sveltejs/kit';
 import { superValidate } from 'sveltekit-superforms/server';
-import { boxSchema } from '$lib/utils/box-form-schema';
+import { boxSchema } from '$lib/schemas/box-form-schema';
 import type { IBox } from '$lib/types/ibox-type.js';
 
 const boxes: IBox[] = [];

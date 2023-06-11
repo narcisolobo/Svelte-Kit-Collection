@@ -1,6 +1,6 @@
 import { fail } from '@sveltejs/kit';
 import { superValidate } from 'sveltekit-superforms/server';
-import { formSchema } from '$lib/utils/form-schema';
+import { formSchema } from '$lib/schemas/form-schema';
 
 export const load = async () => {
 	// Server API:
